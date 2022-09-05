@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by <Image src="/vercel.svg" width={72} height={16} />
+          Powered by <img src="/vercel.svg" width={72} height={16} />
         </a>
       </footer>
     </div>
