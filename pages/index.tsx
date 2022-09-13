@@ -1,8 +1,10 @@
-import type { NextPage } from 'next'
+import type { ReactElement } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
+import Layout from '../components/layout'
+import type { NextPageWithLayout } from './_app'
 
-const Home: NextPage = () => (
+const Page: NextPageWithLayout = () => (
   <div className="flex flex-col items-center justify-center min-h-screen py-2">
     <Head>
       <title>Create Next App</title>
@@ -81,4 +83,8 @@ const Home: NextPage = () => (
   </div>
 )
 
-export default Home
+Page.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>
+}
+
+export default Page
