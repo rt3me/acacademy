@@ -8,6 +8,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.1",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
