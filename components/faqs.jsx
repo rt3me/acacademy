@@ -59,7 +59,7 @@ const rawFaqs = [
 ]
 
 const faqs = [...rawFaqs].map((column) => ({
-  faq: column.map((faq) => ({ ...faq, id: nanoid() })),
+  faqs: column.map((faq) => ({ ...faq, id: nanoid() })),
   id: nanoid(),
 }))
 
@@ -95,7 +95,7 @@ export default function Faqs() {
           {faqs.map((column) => (
             <li key={column.id}>
               <ul className="flex flex-col gap-y-8">
-                {column.faq.map((faq) => (
+                {column.faqs.map((faq) => (
                   <li key={faq.id}>
                     <h3 className="font-display text-lg leading-7 text-slate-900">
                       {faq.question}
