@@ -1,4 +1,4 @@
-import Navbar from './navbar'
+import Header from './header'
 import Footer from './footer'
 
 type LayoutProps = {
@@ -7,7 +7,7 @@ type LayoutProps = {
 
 const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => (
   <>
-    <Navbar />
+    <Header />
     <main>{children}</main>
     <Footer />
   </>
