@@ -20,7 +20,6 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
           className="absolute inset-0 h-full w-full object-cover"
           src={backgroundImage}
           alt="Background Image"
-          unoptimized
         />
       </div>
     </div>
