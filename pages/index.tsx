@@ -14,10 +14,12 @@ import Testimonials from '../components/testimonials'
 const Page: NextPageWithLayout = () => (
   <>
     <Head>
-      <title>TaxPal - Accounting made simple for small businesses</title>
+      <title>
+        Augusta Christian Academy - in the Shenandoah Valley, Virginia
+      </title>
       <meta
         name="description"
-        content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+        content="Augusta Christian Academy is a Christian school in Fishersville in the Shenandoah Valley area of Virginia"
       />
     </Head>
     <Hero />
