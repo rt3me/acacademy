@@ -1,9 +1,11 @@
+import Logo from './logo'
 import Button from './button'
 import Container from './container'
 
 export default function Hero() {
   return (
     <Container className="pt-20 pb-36 text-center lg:pt-32">
+      <Logo width={400} height={160} />
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         New Christian school coming soon.
       </h1>
