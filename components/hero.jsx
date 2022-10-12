@@ -10,8 +10,8 @@ export default function Hero() {
         New Christian school coming soon.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Augusta Christian Academy is starting this coming year. We will serve
-        the Augusta county area. Find out more today!
+        Augusta Christian Academy starts this coming year, serving the Augusta
+        county area. Find out more today!
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Get 6 months free</Button>
