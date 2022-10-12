@@ -5,7 +5,7 @@ import Container from './container'
 export default function Hero() {
   return (
     <Container className="pb-20 text-center md:pt-10 md:pb-36 lg:pt-32">
-      <Logo width={400} height={160} />
+      <Logo widthProp={400} heightProp={160} />
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         New Christian school coming soon.
       </h1>
