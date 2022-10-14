@@ -157,7 +157,7 @@ export default function Form() {
           )}
           {showFailureMessage && (
             <p className="text-red-500">
-              Oops! Something went wrong, please try again.
+              Something went wrong, please try again.
             </p>
           )}
         </div>
