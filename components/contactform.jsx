@@ -79,6 +79,11 @@ export default function Form() {
       setShowSuccessMessage(true)
       setShowFailureMessage(false)
       setButtonText('Send')
+
+      setFullname('')
+      setEmail('')
+      setSubject('')
+      setMessage('')
     }
     console.log(fullname, email, subject, message)
   }
