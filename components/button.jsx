@@ -37,6 +37,8 @@ export default function Button({
     classNameParam,
   )
 
+  console.log(className)
+
   return href ? (
     <Link href={href} className={className} {...props} />
   ) : (
