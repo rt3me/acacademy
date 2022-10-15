@@ -58,7 +58,7 @@ export default function NextBreadcrumbs({
 
   return (
     <ContainerSmall>
-      <nav className="flex" aria-label="Breadcrumb">
+      <nav className="hidden md:flex" aria-label="Breadcrumb">
         <ol className="flex items-center space-x-4 rounded-md bg-white px-6 py-2 shadow">
           {breadcrumbs.map((crumb, idx) => (
             <Crumb
