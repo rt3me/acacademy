@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="py-16">
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Features</NavLink>
+              <NavLink href="/">Home</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="/contact">Contact Us</NavLink>
+              <NavLink href="/about">About</NavLink>
             </div>
           </nav>
         </div>
