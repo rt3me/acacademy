@@ -106,11 +106,15 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
+              <NavLink href="/contact">Contact</NavLink>
             </div>
-            <Button href="/register" color="blue">
+            <Button
+              href="/https://form.jotform.com/222765635435057"
+              color="blue"
+            >
               <span>
-                Get started <span className="hidden lg:inline">today</span>
+                <span className="inline lg:hidden">Interested?</span>{' '}
+                <span className="hidden lg:inline">Our Interest Survey</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
