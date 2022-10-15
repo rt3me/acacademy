@@ -109,7 +109,7 @@ export default function Header() {
               <NavLink href="/contact">Contact</NavLink>
             </div>
             <Button
-              href="/https://form.jotform.com/222765635435057"
+              href="https://form.jotform.com/222765635435057"
               color="blue"
             >
               <span>
