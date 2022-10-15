@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import Container from './container'
+import ContainerSmall from './containersmall'
 import { TextField, TextArea } from './fields'
 import Button from './button'
 
@@ -89,7 +89,7 @@ export default function Form() {
   }
 
   return (
-    <Container className="max-w-3xl py-24">
+    <ContainerSmall className="max-w-3xl py-24">
       <form
         onSubmit={handleSubmit}
         className="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2"
@@ -167,6 +167,6 @@ export default function Form() {
           )}
         </div>
       </form>
-    </Container>
+    </ContainerSmall>
   )
 }
