@@ -4,12 +4,7 @@ import Layout from '../components/layout'
 import type { NextPageWithLayout } from './_app'
 
 import CallToAction from '../components/calltoaction'
-import Faqs from '../components/faqs'
 import Hero from '../components/hero'
-import Pricing from '../components/pricing'
-import PrimaryFeatures from '../components/primaryfeatures'
-import SecondaryFeatures from '../components/secondaryfeatures'
-import Testimonials from '../components/testimonials'
 
 const Page: NextPageWithLayout = () => (
   <>
@@ -23,12 +18,13 @@ const Page: NextPageWithLayout = () => (
       />
     </Head>
     <Hero />
-    <PrimaryFeatures />
-    <SecondaryFeatures />
-    <CallToAction />
-    <Testimonials />
-    <Pricing />
-    <Faqs />
+    <CallToAction
+      href="/admissions"
+      buttonText="Get Started"
+      text="Today is the day to find out more about admissions and tuition at
+            Augusta Christian Academy."
+      heading="Get Started Today"
+    />
   </>
 )
 
