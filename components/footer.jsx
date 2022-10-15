@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="/contact">Contact Us</NavLink>
+              <NavLink href="/about">About</NavLink>
             </div>
           </nav>
         </div>
