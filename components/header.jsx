@@ -80,6 +80,7 @@ function MobileNavigation() {
             <MobileNavLink href="/">Home</MobileNavLink>
             <MobileNavLink href="/about">About</MobileNavLink>
             <MobileNavLink href="/admissions">Admissions</MobileNavLink>
+            <MobileNavLink href="/employment">Employment</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="https://form.jotform.com/222765635435057">
               Interested?
