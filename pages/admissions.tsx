@@ -107,13 +107,13 @@ const TextSection = () => (
           </tr>
           <tr>
             <td className="border px-8 py-4">
-              Half Day
+              Full Day
               <br />
-              <span className="text-xs">8:30am-12:00pm</span>
+              <span className="text-xs">8:30am-3:00pm</span>
             </td>
-            <td className="border px-8 py-4">$768-$1920</td>
-            <td className="border px-8 py-4">$1028-$2571</td>
-            <td className="border px-8 py-4">$1350-$3376</td>
+            <td className="border px-8 py-4">$1194-$2985</td>
+            <td className="border px-8 py-4">$1978-$3597</td>
+            <td className="border px-8 py-4">$1898-$4745</td>
           </tr>
         </tbody>
       </table>
