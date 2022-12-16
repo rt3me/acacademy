@@ -11,7 +11,10 @@ import Button from '../components/button'
 const TextSection = () => (
   <ContainerSmall className="space-y-4 pt-12 pb-20">
     <h2 className="text-3xl font-bold text-gray-600">Enrollment</h2>
-    <p>Enrollment will begin in January.</p>
+    <p>
+      Enrollment will begin in January. Enrollment forms can be accessed
+      directly from the webpage beginning in January 2023.
+    </p>
     <h2 className="text-3xl font-bold text-gray-600">Tuition</h2>
     <p>
       Affording a private education can be intimidating, but not impossible. Our
@@ -119,13 +122,6 @@ const TextSection = () => (
       </table>
     </div>
     <p>* PK3: 3-year-old Class, PK4: 4-year-old Class, PK5: 5-year-old Class</p>
-    <p>
-      ADDITIONAL FEES
-      <br />
-      $85 - Registration and Instructional
-      <br />
-      $40 - Activity Fee
-    </p>
     <p>* Payment options include one payment; 10 month cycle; 12 month cycle</p>
     <br />
     <div style={{ overflowX: 'auto' }}>
@@ -167,13 +163,6 @@ const TextSection = () => (
         </tbody>
       </table>
     </div>
-    <p>
-      ADDITIONAL FEES
-      <br />
-      $100 - Registration and Instructional
-      <br />
-      $150 - Activity Fee
-    </p>
     <p>* Payment options include one payment; 10 month cycle; 12 month cycle</p>
   </ContainerSmall>
 )
