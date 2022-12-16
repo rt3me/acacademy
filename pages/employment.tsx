@@ -12,18 +12,8 @@ const TextSection = () => (
   <ContainerSmall className="space-y-4 pt-12 pb-20">
     <h2 className="text-3xl font-bold text-gray-600">Current Openings</h2>
     <p>
-      <strong>Marketing and Enrollment Coordinator</strong>
-      <br />
-      <a href="/downloads/MarketingandEnrollmentJobDescription.docx">
-        Click for job description
-      </a>
-    </p>
-    <p>
-      <strong>Office Manager: Admissions and Payroll</strong>
-      <br />
-      <a href="/downloads/OfficeManagerJobDescription.docx">
-        Click for job description
-      </a>
+      Applications will be accepted beginning in January, check back for
+      specific positions.
     </p>
     <Button
       href="https://form.jotform.com/222835656829065"
