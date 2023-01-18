@@ -10,11 +10,24 @@ import Button from '../components/button'
 
 const TextSection = () => (
   <ContainerSmall className="space-y-4 pt-12 pb-20">
-    <h2 className="text-3xl font-bold text-gray-600">Current Openings</h2>
+    <h2 className="text-3xl font-bold text-gray-600">
+      Current Openings and Job Fair
+    </h2>
     <p>
-      Applications will be accepted beginning in January, check back for
-      specific positions.
+      Augusta Christian Academy is holding a job fair. Get more information a
+      sign up for an interview here:{' '}
+      <a href="https://www.signupgenius.com/go/10c094eabaa2ea2fcc70-acajob">
+        https://www.signupgenius.com/go/10c094eabaa2ea2fcc70-acajob
+      </a>
+      .
     </p>
+    <Button
+      href="https://www.signupgenius.com/go/10c094eabaa2ea2fcc70-acajob"
+      color="blue"
+      classNameParam=""
+    >
+      Job Fair
+    </Button>
     <Button
       href="https://form.jotform.com/222835656829065"
       color="blue"
