@@ -35,6 +35,7 @@ export default function Button({
     baseStyles[variant],
     variantStyles[variant][color],
     classNameParam,
+    'mr-4',
   )
 
   console.log(className)
