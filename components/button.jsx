@@ -31,13 +31,13 @@ export default function Button({
   href,
   ...props
 }) {
-  const className = clsx(
+  const conditionalClasses = clsx(
     baseStyles[variant],
     variantStyles[variant][color],
     classNameParam,
   )
 
-  console.log(className)
+  const className = `${conditionalClasses} mr-4`
 
   return href ? (
     <Link href={href} className={className} {...props} />

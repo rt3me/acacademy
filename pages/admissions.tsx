@@ -12,9 +12,40 @@ const TextSection = () => (
   <ContainerSmall className="space-y-4 pt-12 pb-20">
     <h2 className="text-3xl font-bold text-gray-600">Enrollment</h2>
     <p>
-      Enrollment will begin in January. Enrollment forms can be accessed
-      directly from the webpage beginning in January 2023.
+      Enrollment opened on January 15, 2023. Click below to apply for admissions
+      today:
     </p>
+    <p>
+      <strong>ENROLLMENT APPLICATIONS</strong>
+      <br />
+      <a href="https://crossroads4me.breezechms.com/form/00f525">
+        Pre-K Application
+      </a>
+      <br />
+      <a href="https://crossroads4me.breezechms.com/form/00f5258">
+        K-4th Grade Application
+      </a>
+      <br />
+      <a href="https://crossroads4me.breezechms.com/form/00f525884">
+        5th-8th Grade Application
+      </a>
+    </p>
+    <p>
+      <strong>ENROLLMENT DOCUMENTS</strong>
+      <br />
+      <a href="/downloads/InfoLetter.pdf">Download Information Letter</a>
+      <br />
+      <a href="/downloads/TuitionAndFees.pdf">Download Tuition and Fees</a>
+      <br />
+      <a href="/downloads/StatementOfFaith.pdf">Download Statement of Faith</a>
+      <br />
+      <a href="/downloads/FamilyCalendar2324.pdf">
+        Download 2023-2024 Family Calendar
+      </a>
+      <br />
+      <a href="/downloads/FAQ.pdf">Download FAQ</a>
+    </p>
+    <br />
     <h2 className="text-3xl font-bold text-gray-600">Tuition</h2>
     <p>
       Affording a private education can be intimidating, but not impossible. Our

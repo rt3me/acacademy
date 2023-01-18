@@ -20,7 +20,7 @@ const Page: NextPageWithLayout = () => (
     <Hero />
     <CallToAction
       href="/admissions"
-      buttonText="Get Started"
+      buttonText="Admissions Information"
       text="Today is the day to find out more about admissions and tuition at
             Augusta Christian Academy."
       heading="Get Started Today"
