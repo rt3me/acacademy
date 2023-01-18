@@ -12,8 +12,23 @@ const TextSection = () => (
   <ContainerSmall className="space-y-4 pt-12 pb-20">
     <h2 className="text-3xl font-bold text-gray-600">Enrollment</h2>
     <p>
-      Enrollment will begin in January. Enrollment forms can be accessed
+      Enrollment opened on January 15, 2023. Enrollment forms can be accessed
       directly from the webpage beginning in January 2023.
+    </p>
+    <p>
+      <strong>ENROLLMENT DOCUMENTS</strong>
+      <br />
+      <a href="/downloads/InfoLetter.pdf">Download Information Letter</a>
+      <br />
+      <a href="/downloads/TuitionAndFees.pdf">Download Tuition and Fees</a>
+      <br />
+      <a href="/downloads/StatementOfFaith.pdf">Download Statement of Faith</a>
+      <br />
+      <a href="/downloads/FamilyCalendar2324.pdf">
+        Download 2023-2024 Family Calendar
+      </a>
+      <br />
+      <a href="/downloads/FAQ.pdf">Download FAQ</a>
     </p>
     <h2 className="text-3xl font-bold text-gray-600">Tuition</h2>
     <p>
