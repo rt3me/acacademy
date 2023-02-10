@@ -21,7 +21,7 @@ const Page: NextPageWithLayout = () => (
     <CallToAction
       href="https://crossroads4me.breezechms.com/form/7bb22f"
       buttonText="Register Today"
-      text="Register for an opportunity to be a part of the work at Augusta Christian Academy."
+      text="Be a part of the work at Augusta Christian Academy... Thursday, March 2nd at 6:30pm."
       heading="Sponsorship Dinner"
       backgroundImage="../images/background-sponsorship.jpg"
       logoTextImage="../images/sponsorship-dinner-logo-text.svg"
