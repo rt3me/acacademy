@@ -9,6 +9,7 @@ export default function CallToAction({
   text,
   heading,
   backgroundImage = '../images/background-call-to-action.jpg',
+  logoTextImage = '',
 }) {
   return (
     <section
@@ -24,15 +25,33 @@ export default function CallToAction({
         unoptimized
       />
       <Container className="relative">
-        <div className="mx-auto max-w-lg text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            {heading}
-          </h2>
-          <p className="mt-4 text-lg tracking-tight text-white">{text}</p>
-          <br />
-          <Button href={href} variant="solid" color="white">
-            {buttonText}
-          </Button>
+        <div className={logoTextImage ? 'bg-black bg-opacity-50 py-10' : ''}>
+          <div className="mx-auto max-w-lg text-center">
+            {logoTextImage ? (
+              <>
+                <Image
+                  className=""
+                  src={logoTextImage}
+                  alt="Call to action logo text image"
+                  width={2347}
+                  height={1244}
+                  unoptimized
+                />
+                <h2 className="hidden font-display text-3xl tracking-tight text-white sm:text-4xl">
+                  {heading}
+                </h2>
+              </>
+            ) : (
+              <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+                {heading}
+              </h2>
+            )}
+            <p className="mt-4 text-lg tracking-tight text-white">{text}</p>
+            <br />
+            <Button href={href} variant="solid" color="white">
+              {buttonText}
+            </Button>
+          </div>
         </div>
       </Container>
     </section>
