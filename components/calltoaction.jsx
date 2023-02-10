@@ -2,9 +2,14 @@ import Image from 'next/future/image'
 
 import Button from './button'
 import Container from './container'
-import backgroundImage from '../images/background-call-to-action.jpg'
 
-export default function CallToAction({ href, buttonText, text, heading }) {
+export default function CallToAction({
+  href,
+  buttonText,
+  text,
+  heading,
+  backgroundImage = '../images/background-call-to-action.jpg',
+}) {
   return (
     <section
       id="get-started-today"
@@ -13,7 +18,7 @@ export default function CallToAction({ href, buttonText, text, heading }) {
       <Image
         className="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
         src={backgroundImage}
-        alt=""
+        alt="Call to action section background image"
         width={2347}
         height={1244}
         unoptimized
