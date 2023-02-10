@@ -19,6 +19,14 @@ const Page: NextPageWithLayout = () => (
     </Head>
     <Hero />
     <CallToAction
+      href="https://crossroads4me.breezechms.com/form/7bb22f"
+      buttonText="Register Today"
+      text="Register for an opportunity to be a part of the work at Augusta Christian Academy."
+      heading="Sponsorship Dinner"
+      backgroundImage="../images/background-sponsorship.jpg"
+      logoTextImage="../images/sponsorship-dinner-logo-text.svg"
+    />
+    <CallToAction
       href="/admissions"
       buttonText="Admissions Information"
       text="Today is the day to find out more about admissions and tuition at
